@@ -1,0 +1,110 @@
+/* Gaya umum */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: white; /* Mengubah warna teks keseluruhan menjadi putih */
+  }
+  
+  header {
+    background-color: #3498db; /* Warna latar belakang header */
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center; /* Teks diatur rata tengah */
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  nav {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .kelas-section {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .kelas-section h2 {
+    color: white; /* Mengubah warna teks judul menjadi putih */
+  }
+  
+  .kelas-section .subject {
+    margin-top: 10px;
+  }
+  
+  .kelas-section .subject h3 {
+    color: white; /* Mengubah warna teks sub-judul menjadi putih */
+  }
+  
+  .kelas-section .subject ul {
+    color: white; /* Mengubah warna teks daftar isi menjadi putih */
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Gaya spesifik untuk masing-masing kelas */
+  .kelas1 {
+    background-color: #e74c3c; /* Warna latar belakang untuk kelas 1 */
+  }
+  
+  .kelas2 {
+    background-color: #f39c12; /* Warna latar belakang untuk kelas 2 */
+  }
+  
+  .kelas3 {
+    background-color: #2ecc71; /* Warna latar belakang untuk kelas 3 */
+  }
+  
+  .kelas4 {
+    background-color: #3498db; /* Warna latar belakang untuk kelas 4 */
+  }
+  
+  .kelas5 {
+    background-color: #9b59b6; /* Warna latar belakang untuk kelas 5 */
+  }
+  
+  .kelas6 {
+    background-color: #34495e; /* Warna latar belakang untuk kelas 6 */
+  }
+  
